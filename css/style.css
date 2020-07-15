@@ -20,3 +20,12 @@ header {
   background-color: green;
 }
 /* /HEADER*/
+/* MAIN */
+.portfolio {
+  height: 70px;
+  background-color: grey;
+}
+.images > div {
+  height: 80px;
+  background-color:red;
+}
