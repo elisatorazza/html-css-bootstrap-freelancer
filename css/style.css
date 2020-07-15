@@ -1,0 +1,22 @@
+/*HEADER*/
+header {
+  background-color: green;
+  height: 70px;
+}
+.header-top {
+  height: 100%;
+  background-color: blue;
+}
+.header-top > div {
+  background-color: yellow;
+  height: 100%
+}
+.header-top > nav {
+  background-color: red;
+  height: 100%;
+}
+.jumbotron {
+  height: 300px;
+  background-color: green;
+}
+/* /HEADER*/
