@@ -25,7 +25,11 @@ header {
   height: 70px;
   background-color: grey;
 }
-.images > div {
+.images > div:nth-child(odd) {
   height: 80px;
   background-color:red;
+}
+.images > div:nth-child(even) {
+  height: 80px;
+  background-color: blue;
 }
