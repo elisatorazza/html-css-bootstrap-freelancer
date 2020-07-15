@@ -1,7 +1,6 @@
 /*HEADER*/
 header {
   background-color: green;
-  height: 70px;
 }
 .header-top {
   height: 70px;
@@ -21,15 +20,50 @@ header {
 }
 /* /HEADER*/
 /* MAIN */
+/*portfolio*/
 .portfolio {
   height: 70px;
   background-color: grey;
 }
 .images > div:nth-child(odd) {
-  height: 80px;
+  height: 150px;
   background-color:red;
 }
 .images > div:nth-child(even) {
-  height: 80px;
+  height: 150px;
   background-color: blue;
+}
+/*portfolio*/
+/*about*/
+.about {
+  height: 300px;
+  background-color:lightblue;
+}
+/* /about*/
+/*contact*/
+.contact {
+  height:300px;
+  background-color: grey;
+}
+/* /contact*/
+/*FOOTER*/
+.footer-menu {
+  height: 300px;
+  background-color: orange;
+}
+.footer-menu > div {
+  height: 100%;
+}
+.footer-menu > div:first-child {
+  background-color:black;
+}
+.footer-menu > div:last-child {
+  background-color:brown;
+}
+.footer-menu > div:nth-child(2) {
+  background-color: green;
+}
+.copy {
+  height: 80px;
+  background-color: darkblue;
 }
