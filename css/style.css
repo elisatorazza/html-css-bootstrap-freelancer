@@ -1,22 +1,61 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.wrapper_small {
+  max-width: 800px;
+  margin: auto;
+}
 /*HEADER*/
 header {
   background-color: green;
 }
-.header-top {
+.relative {
+  position:relative;
+}
+.header_top {
   height: 70px;
+  line-height: 70px;
   background-color: blue;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+  z-index: 1;
+  background-color: #2c3e50;
+  font-weight: 900;
 }
-.header-top > div {
+.header_top a {
+  color: #fff;
+  text-decoration: none;
+}
+.header_top li{
+  list-style: none;
+}
+.start {
+  font-size: 2.3rem;
+}
+/* .top {
+  height: 70px;
+} */
+.top > div:first-child {
   background-color: yellow;
-  height: 100%
+  height: 100%;
 }
-.header-top > nav {
+.top > div:nth-child(2) {
   background-color: red;
   height: 100%;
 }
-.jumbotron {
-  height: 300px;
+/*jumbotron*/
+.jumbo {
   background-color: green;
+  margin-top: 70px;
+  padding: 70px 0;
+}
+.jumbo_text {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
+  text-align: center;
 }
 /* /HEADER*/
 /* MAIN */
@@ -25,13 +64,10 @@ header {
   height: 70px;
   background-color: grey;
 }
-.images > div:nth-child(odd) {
+.box_portfolio {
   height: 150px;
   background-color:red;
-}
-.images > div:nth-child(even) {
-  height: 150px;
-  background-color: blue;
+  margin-bottom:15px;
 }
 /*portfolio*/
 /*about*/
