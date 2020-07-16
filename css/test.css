@@ -1,4 +1,4 @@
-.nav-pills li {
-  text-align: right;
-  padding: 0 20px;
+.box_portfolio:hover {
+  background-color: green;
+  z-index:2;
 }
