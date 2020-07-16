@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
+  color: #fff;
 }
 .wrapper_small {
   max-width: 800px;
@@ -28,22 +29,20 @@ header {
   color: #fff;
   text-decoration: none;
 }
-.header_top li{
+.header_top a:hover {
+  color: lightblue;
+}
+.header_top li {
   list-style: none;
 }
 .start {
   font-size: 2.3rem;
 }
-/* .top {
-  height: 70px;
-} */
-.top > div:first-child {
-  background-color: yellow;
-  height: 100%;
+.nav-pills li {
+  padding: 0 20px;
 }
-.top > div:nth-child(2) {
-  background-color: red;
-  height: 100%;
+.nav-pills a {
+  font-size: 1.5rem;
 }
 /*jumbotron*/
 .jumbo {
