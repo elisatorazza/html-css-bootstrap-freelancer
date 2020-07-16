@@ -57,7 +57,23 @@ header {
   text-align: center;
 }
 .jumbo_text img {
-  width: 20%;
+  width: 30%;
+}
+.glyphicon-star {
+  display: inline-block;
+  font-size: 40px;
+}
+h1 {
+  font-weight: 900;
+}
+.jumbo_text {
+  font-size: 1.8rem;
+}
+.jumbo_text > div::after {
+  content:"";
+  display:inline-block;
+  width: 10px;
+  color: #fff;
 }
 /* /HEADER*/
 /* MAIN */
