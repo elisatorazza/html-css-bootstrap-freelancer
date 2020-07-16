@@ -46,7 +46,7 @@ header {
 }
 /*jumbotron*/
 .jumbo {
-  background-color: green;
+  background-color: #1ABC9C;
   margin-top: 70px;
   padding: 70px 0;
 }
@@ -55,6 +55,9 @@ header {
   padding: 0 15px;
   margin: auto;
   text-align: center;
+}
+.jumbo_text img {
+  width: 20%;
 }
 /* /HEADER*/
 /* MAIN */
