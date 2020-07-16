@@ -62,6 +62,7 @@ header {
 .glyphicon-star {
   display: inline-block;
   font-size: 40px;
+  vertical-align: middle;
 }
 h1 {
   font-weight: 900;
@@ -69,11 +70,19 @@ h1 {
 .jumbo_text {
   font-size: 1.8rem;
 }
-.jumbo_text > div::after {
-  content:"";
-  display:inline-block;
-  width: 10px;
-  color: #fff;
+.jumbo_text > span::before {
+  content:'';
+  display: inline-block;
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
+}
+.jumbo_text > span::after {
+  content: '';
+  display: inline-block;
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
 }
 /* /HEADER*/
 /* MAIN */
