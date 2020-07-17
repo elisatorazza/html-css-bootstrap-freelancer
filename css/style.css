@@ -13,12 +13,13 @@ body {
 .p_bottom_80 {
   padding-bottom: 80px;
 }
-.fw_900 {
-  font-weight:900;
+.fw_bold {
+  font-weight:bold;
 }
 /* /GENERAL*/
 
 /*HEADER*/
+/*header_top*/
 .relative {
   position:relative;
 }
@@ -57,24 +58,12 @@ a {
   background-color: #1ABC9C;
 }
 
-@media screen and (max-width:991px) {
-  .start {
-    font-size: 2rem;
-  }
-  .jumbo_text h1 {
-    font-size: 44px;
-  }
-}
+/* /header_top*/
 
-@media screen and (max-width:768px) {
-  .start {
-    font-size: 1.8rem;
-  }
-}
 /*jumbotron*/
 .jumbo {
   background-color: #1ABC9C;
-  margin-top: 70px;
+  margin-top: 80px;
   padding: 70px 0;
 }
 .jumbo_text {
@@ -89,13 +78,7 @@ a {
 .jumbo_text h1 {
   padding: 20px;
   font-size: 60px;
-}
-.jumbo_text {
-  font-size: 1.8rem;
-}
-.jumbo_text p {
-  font-size: 26px;
-  margin:
+  font-family: 'Montserrat', sans-serif;
 }
 .dec_star {
   font-size: 40px;
@@ -109,9 +92,35 @@ a {
 }
 .fa-star {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
+.jumbo_text p {
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+/* /jumbotron*/
+/* responsive header*/
+
+@media screen and (max-width:991px) {
+  .start {
+    font-size: 2rem;
+  }
+  .jumbo_text h1 {
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+@media screen and (max-width:768px) {
+  .start {
+    font-size: 1.5rem;
+  }
+}
+
+/* /responsive header*/
 /* /HEADER*/
+
 /* MAIN */
 /*portfolio*/
 .portfolio h2{
