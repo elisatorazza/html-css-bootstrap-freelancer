@@ -1,5 +1,6 @@
+
+/* GENERAL */
 body {
-  font-family: 'Lato', sans-serif;
   color: #fff;
 }
 .wrapper_small {
@@ -15,13 +16,15 @@ body {
 .fw_900 {
   font-weight:900;
 }
+/* /GENERAL*/
+
 /*HEADER*/
 .relative {
   position:relative;
 }
 .header_top {
-  height: 70px;
-  line-height: 70px;
+  height: 80px;
+  line-height: 80px;
   background-color: blue;
   position: fixed;
   width: 100%;
@@ -29,28 +32,44 @@ body {
   left: 0;
   z-index: 1;
   background-color: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
-.header_top a {
+a {
   color: #fff;
   text-decoration: none;
 }
 .header_top a:hover {
-  color: lightblue;
-}
-.header_top li {
-  list-style: none;
+  color: #1ABC9C;
+  text-decoration: none;
 }
 .start {
   font-size: 2.3rem;
 }
-.height {
-  height:71px;
-}
-.nav-pills li {
+.header_top li {
   padding: 0 20px;
 }
-.nav-pills a {
-  font-size: 1.5rem;
+.btn_menu {
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 20px;
+  background-color: #1ABC9C;
+}
+
+@media screen and (max-width:991px) {
+  .start {
+    font-size: 2rem;
+  }
+  .jumbo_text h1 {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .start {
+    font-size: 1.8rem;
+  }
 }
 /*jumbotron*/
 .jumbo {
@@ -65,31 +84,32 @@ body {
   text-align: center;
 }
 .jumbo_text img {
-  width: 30%;
+  max-width: 230px;
 }
-.star {
-  height:50px;
-}
-.glyphicon-star {
-  display: inline-block;
-  font-size: 40px;
-  /* vertical-align: middle; */
+.jumbo_text h1 {
+  padding: 20px;
+  font-size: 60px;
 }
 .jumbo_text {
   font-size: 1.8rem;
 }
-.star > span::before {
-  display: inline-block;
-  width: 100px;
-  height: 3px;
-  background-color: #fff;
+.jumbo_text p {
+  font-size: 26px;
+  margin:
 }
-.star > span::after {
+.dec_star {
+  font-size: 40px;
+}
+.dec_star::before, .dec_star::after {
   content:"";
   display: inline-block;
   width: 100px;
   height: 3px;
   background-color: #fff;
+}
+.fa-star {
+  display: inline-block;
+  vertical-align: middle;
 }
 /* /HEADER*/
 /* MAIN */
@@ -126,6 +146,7 @@ body {
 }
 .contact_me input {
   border: 1px solid #fff;
+  box-shadow: none;
   border-bottom: 1px solid #ccc;
 }
 
@@ -141,6 +162,11 @@ body {
   border: 1px solid #fff;
   border-radius: 100%;
   margin: 5px;
+}
+.social_list {
+  height: 15px;
+  width: 15px;
+
 }
 #final_start {
   color: #1ABC9C;

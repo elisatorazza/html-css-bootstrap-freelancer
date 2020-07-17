@@ -5,7 +5,7 @@
     <title>Freelancer</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Montserrat:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -17,26 +17,26 @@
       <div class="header_top fw_900 text-uppercase">
         <div class="container">
           <div class="row top">
-            <div class="col-xs-6">
+            <div class="col-xs-9 col-sm-6">
               <a class="start" href="#">Start bootstrap</a>
             </div>
-            <div class="height col-xs-6 text-right">
+            <div class="col-xs-3 col-sm-6 text-right">
               <nav class="visible-md visible-lg">
-                  <ul class="nav-pills">
-                    <li role="presentation">
-                      <a href="#">Portfolio</a>
+                  <ul class="list-inline">
+                    <li>
+                       <a href="#">Portfolio</a>
                     </li>
-                    <li role="presentation">
+                    <li>
                       <a href="#">About</a>
                     </li>
-                    <li role="presentation">
+                    <li>
                       <a href="#">Contact</a>
                     </li>
                   </ul>
               </nav>
               <div class="visible-xs visible-sm">
-                <button type="button" class="btn btn-default" aria-label="Left Align">
-                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                <button type="button" class="btn btn_menu btn-default btn-lg" aria-label="Left Align">
+                MENU <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
                 </button>
               </div>
             </div>
@@ -48,9 +48,9 @@
         <div class="jumbo_text clearfix">
           <img src="img/avataaars.svg" alt="Immagine avatar">
           <h1 class="text-uppercase fw_900">Start bootstrap</h1>
-          <!-- <div class="star"> -->
-          <!-- <span class="glyphicon glyphicon-star"></span> -->
-          <!-- </div> -->
+          <div class="dec_star">
+            <i class="fas fa-star"></i>
+          </div>
           <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </div>
@@ -58,10 +58,15 @@
     <!-- /HEADER -->
     <!-- MAIN -->
     <main>
-      <section class="portfolio">
+      <section class="portfolio p_top_80 p_bottom_80">
         <!-- portfolio -->
-        <h2 class="text-center text-uppercase fw_900">portfolio</h2>
         <div class="container">
+          <div class="row">
+            <h2 class="text-center text-uppercase fw_900">portfolio</h2>
+            <div class="dec_star">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
           <div class="images row">
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="box_portfolio">
@@ -159,10 +164,12 @@
             </div>
             <div class="col-xs-12 col-sm-4">
               <h4 class="text-uppercase">around the web</h4>
-                <i class="social fab fa-facebook-f"></i>
-                <i class="social fab fa-google-plus-g"></i>
-                <i class="social fab fa-twitter"></i>
-                <i class="social fab fa-linkedin-in"></i>
+              <ul class="list-inline social_list">
+                <li><i class="social fab fa-facebook-f"></i></li>
+                <li><i class="social fab fa-google-plus-g"></i></li>
+                <li><i class="social fab fa-twitter"></i></li>
+                <li><i class="social fab fa-linkedin-in"></i></li>
+              </ul>
             </div>
             <div class="col-xs-12 col-sm-4">
               <h4 class="text-uppercase">About Freelancer</h4>
