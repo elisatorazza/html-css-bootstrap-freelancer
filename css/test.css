@@ -1,4 +1,9 @@
-.box_portfolio:hover {
-  background-color: green;
-  z-index:2;
+.contact_me input {
+  border: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+}
+.send {
+  background color:
+  color: #fff;
+  margin-top: 15px;
 }

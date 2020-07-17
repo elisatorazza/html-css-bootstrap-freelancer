@@ -99,15 +99,15 @@
       <!-- /portfolio -->
       <!-- about -->
       <section class="about p_top_80 p_bottom_80">
-        <h2 class="text-center text-uppercase">about
+        <h2 class="text-center text-uppercase fw_900">about
         </h2>
         <div class="wrapper_small">
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12 col-md-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</div>
               <div class="col-xs-12 col-md-6">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</div>
-              <div class="col-xs-12 text-center">
-                <a class="btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-save"></span>Free download</a>
+              <div class="btn_download col-xs-12 text-center">
+                <a class="download btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-save"></span>Free download</a>
               </div>
               <!-- <a href="#" class="btn btn-default btn-lg"> -->
                 <!-- <span class="glyphicon glyphicon-star" aria-hidden="true"></span> -->
@@ -119,11 +119,28 @@
       <!-- /about -->
       <!-- contact -->
       <section class="contact">
-        <h2 class="text-center text-uppercase">Contact me</h2>
+        <h2 class="text-center text-uppercase fw_900">Contact me</h2>
         <div class="wrapper_small">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-xs-12"></div>
+              <div class="col-xs-12">
+                <form class="contact_me">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Phone number</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone number">
+                  </div>
+                  <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                  <button type="submit" class="send btn btn-default">Send</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -137,18 +154,24 @@
         <div class="container">
           <div class="row footer-menu">
             <div class="col-xs-12 col-sm-4">
-
+              <h4 class="text-uppercase">location</h4>
+              <p>2215 John Daniel Drive Clark, MO <br>5423</p>
             </div>
             <div class="col-xs-12 col-sm-4">
-
+              <h4 class="text-uppercase">around the web</h4>
+                <i class="social fab fa-facebook-f"></i>
+                <i class="social fab fa-google-plus-g"></i>
+                <i class="social fab fa-twitter"></i>
+                <i class="social fab fa-linkedin-in"></i>
             </div>
             <div class="col-xs-12 col-sm-4">
-
+              <h4 class="text-uppercase">About Freelancer</h4>
+              <p>Freelance is a free to use, open source Bootstrap theme created by <span id="final_start">Start Bootstrap</span>.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer_bottom copy">
+      <div class="footer_bottom">
         <p>Copyright © Your Website 2020</p>
       </div>
 
