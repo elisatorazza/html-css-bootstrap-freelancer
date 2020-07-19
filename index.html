@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400;1,700&family=Montserrat:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -126,46 +126,64 @@
       <!-- /portfolio -->
       <!-- about -->
       <section class="about p_top_80 p_bottom_80">
-        <h2 class="text-center text-uppercase fw_bold">about
-        </h2>
+        <div class="container text-center p_btm_30">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="text-center text-uppercase fw_bold">about
+              </h2>
+              <div class="dec_star">
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="wrapper_small">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-xs-12 col-md-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</div>
-              <div class="col-xs-12 col-md-6">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</div>
-              <div class="btn_download col-xs-12 text-center">
-                <a class="download btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-save"></span>Free download</a>
+              <div class="col-xs-12 col-md-6">
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                </p>
+                </div>
+              <div class="col-xs-12 col-md-6">
+                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                </p>
               </div>
-              <!-- <a href="#" class="btn btn-default btn-lg"> -->
-                <!-- <span class="glyphicon glyphicon-star" aria-hidden="true"></span> -->
-              </a>
+              <div class="btn_download col-xs-12 text-center">
+                <a class="download btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-save"></span> Free Download!</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- /about -->
       <!-- contact -->
-      <section class="contact">
-        <h2 class="text-center text-uppercase fw_bold">Contact me</h2>
+      <section class="contact p_top_80 p_bottom_80">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-xs-12">
+            <h2 class="text-uppercase fw_bold">Contact me</h2>
+            <div class="dec_star dec_star_dark">
+              <i class="fas fa-star"></i>
+            </div>
+            </div>
+          </div>
+        </div>
         <div class="wrapper_small">
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12">
-                <form class="contact_me">
+                <form class="form_contact">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                    <input type="text" class="form-control white_border font_type p_top_30 p_btm_30" id="exampleInputPassword1" placeholder="Name">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+                    <input type="email" class="form-control white_border font_type p_top_30 p_btm_30" id="exampleInputEmail1" placeholder="Email Address">
                   </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Phone number</label>
-                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone number">
+                  <div class="form-group white_border font_type">
+                    <input type="tel" class="form-control white_border font_type p_top_30 p_btm_30" placeholder="Phone number">
                   </div>
-                  <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                  <button type="submit" class="send btn btn-default">Send</button>
+                  <textarea class="form-control white_border font_type p_top_30 p_btm_30" rows="4" placeholder="Message"></textarea>
+                  <button type="button" class="btn btn-default btn-lg send">Send</button>
                 </form>
               </div>
             </div>
@@ -177,24 +195,28 @@
     <!-- /MAIN -->
     <!-- FOOTER -->
     <footer class="text-center">
-      <div class="footer_top">
+      <div class="footer_top p_top_80 p_bottom_80">
         <div class="container">
           <div class="row footer-menu">
             <div class="col-xs-12 col-sm-4">
-              <h4 class="text-uppercase">location</h4>
-              <p>2215 John Daniel Drive Clark, MO <br>5423</p>
+              <h3 class="text-uppercase fw_bold m_btm_30">location</h3>
+              <p>2215 John Daniel Drive <br> Clark, MO 5423</p>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <h4 class="text-uppercase">around the web</h4>
-              <ul class="list-inline social_list">
-                <li><i class="social fab fa-facebook-f"></i></li>
-                <li><i class="social fab fa-google-plus-g"></i></li>
-                <li><i class="social fab fa-twitter"></i></li>
-                <li><i class="social fab fa-linkedin-in"></i></li>
-              </ul>
+               <div class="wrapper_xs">
+                  <h3 class="text-uppercase fw_bold m_btm_30">around the web</h3>
+                  <ul class="list-inline social_list">
+                    <li>
+                      <i class="fab fa-facebook-f social_list_item"></i>
+                    </li>
+                    <li><i class="fab fa-google-plus-g social_list_item"></i></li>
+                    <li><i class="fab fa-twitter social_list_item"></i></li>
+                    <li><i class="fab fa-linkedin-in social_list_item"></i></li>
+                  </ul>
+                </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <h4 class="text-uppercase">About Freelancer</h4>
+              <h3 class="text-uppercase fw_bold m_btm_30">About Freelancer</h3>
               <p>Freelance is a free to use, open source Bootstrap theme created by <span id="final_start">Start Bootstrap</span>.</p>
             </div>
           </div>

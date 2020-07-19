@@ -3,8 +3,15 @@
 body {
   color: #fff;
 }
+h2 {
+  font-size: 40px;
+}
 .wrapper_small {
-  max-width: 800px;
+  max-width: 600px;
+  margin: auto;
+}
+.wrapper_xs {
+  width: 300px;
   margin: auto;
 }
 .p_top_80 {
@@ -13,8 +20,14 @@ body {
 .p_bottom_80 {
   padding-bottom: 80px;
 }
+.p_top_30 {
+  padding-top: 30px;
+}
 .p_btm_30 {
   padding-bottom: 30px;
+}
+.m_btm_30 {
+  margin-bottom: 30px;
 }
 .fw_bold {
   font-weight:bold;
@@ -159,8 +172,9 @@ a {
 /*portfolio*/
 /*about*/
 .about {
-  height: ;
   background-color:#1ABC9C;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 .download {
   background-color:#1ABC9C;
@@ -169,39 +183,51 @@ a {
 .btn_download {
   margin-top: 20px;
 }
+.download {
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
 /* /about*/
 /*contact*/
-.contact input {
-  color: #000;
+.contact h2 {
+  color: #2c3e50;
 }
-.contact button {
-  background color: #1ABC9C;
+.font_type {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color:#565051;
+}
+.white_border {
+  border: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+}
+.send {
+  background-color: #1ABC9C;
   color: #fff;
   margin-top: 15px;
-}
-.contact_me input {
-  border: 1px solid #fff;
-  box-shadow: none;
-  border-bottom: 1px solid #ccc;
+  border: 0;
 }
 
 /* /contact*/
 /*FOOTER*/
-.footer-menu {
+.footer_top {
   background-color: #2C3E50;
-  padding: 30px 0;
 }
-.social{
+.footer_top p {
   font-size: 20px;
-  padding: 20px;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  margin: 5px;
+  font-family: 'Lato', sans-serif;
 }
-.social_list {
-  height: 15px;
-  width: 15px;
-
+.social_list_item {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  line-height: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  line-height: 50px;
 }
 #final_start {
   color: #1ABC9C;
@@ -209,4 +235,5 @@ a {
 .footer_bottom {
   background-color:  #1A252F;
   padding: 30px 0;
+  font-size: 13px;
 }
